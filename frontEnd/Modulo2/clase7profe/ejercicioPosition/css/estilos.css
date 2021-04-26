@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  margin-top: 40px;
+}
+li {
+  /*deja inicio y contacto uno al lado del otro, estan en bloque y los
+ transforma en linea con prop de bloque*/
+
+  /*ESTO SE ORDENA POR ORDEN ALFABETICO*/
+  display: inline-block;
+  border: 1px solid #000;
+  background-color: blue;
+  padding-bottom: 20px;
+  color: #fff;
+
+  /* PARA LAS EQUINAS BORDEA LOS ANGULOS*/
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 50px 20px;
+  width: 150px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}

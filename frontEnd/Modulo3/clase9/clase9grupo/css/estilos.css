@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.descuento {
+  background-color: #1cd1b0;
+  width: 1440px;
+  left: 20px;
+  top: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+
+#login {
+  position: relative;
+  border: tomato 6px solid;
+  margin: 10% auto;
+  max-width: 400px;
+  padding-left: 41;
+  padding-top: 33;
+  padding-right: 40;
+  padding-bottom: 60px;
+    text-align: center;
+}
+footer {
+  background-color: #00669f;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 18.75px;
+  padding: 17px;
+  text-align: center;
+  border: tomato 3px solid;
+}
+h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  color: #333333;
+  text-align: left;
+}
+
+h3 {
+  background-color: #00669f;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 27px;
+  padding-bottom: 18;
+}
+
+form input {
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.entrar {
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: #1cd1b0;
+  border-radius: 23.011px;
+}
+
+.registrarme {
+  position: absolute;
+  color: black;
+  text-decoration: none;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  bottom: 0;
+}
+
+.logoTienda {
+  text-indent: 129px;
+  background-image: url("/clase9grupo/img/OBJECTS.png");
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}

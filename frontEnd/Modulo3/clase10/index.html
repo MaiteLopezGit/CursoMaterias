@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 1</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="login">
+        <h3>Login</h3>
+        <form action="#">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                <!-- Input text con mínimo y máximo -->
+                <label for="nombre">Nombre y apellido (Obligatorio)</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Juan Perez" minlength="5" maxlength="25" required tabindex="1">
+                <!-- Input tel con pattern -->
+                <label for="tel">Tel</label>
+                <input type="tel" id="tel" name="tel" placeholder="123-90122" pattern="[0-9]{3}-[0-9]{5}">
+                <!-- Input radio -->
+
+
+                <p>Tipo de Documento</p>
+                 <label for="documento1" class="vert"> <input type="radio" id="documento1" name="documento" value="DNI">
+               DNI  </label>
+                <label for="documento2" class="vert"><input type="radio" id="documento2" name="documento" value="CUIL">
+                 CUIL </label>
+                <label for="documento3" class="vert"> <input type="radio" id="documento3" name="documento" value="CUIT">
+                CUIT </label>  
+
+                <br> 
+                <label for="doc">Imagen Documento</label>
+                <input type="file" id="doc" accept=".jpg, .pdf, .png" name="doc" multiple>
+                <label for="doc1">Imagen Documento</label>
+                <input type="file" id="doc1" accept=".jpg, .pdf, .png" name="doc1" multiple>
+
+
+                <label for="nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="nacimiento" name="nacimiento"  min="2018-01-01" max="2018-12-31">
+            </fieldset>
+            <fieldset>
+                <legend>Lenguajes</legend>
+                <!-- Checkbox -->
+                <p>Seleccione los lenguajes que conoce</p>
+                    <input type="checkbox" id="lenguaje1" name="lenguaje" value="HTML">
+                    <label for="lenguaje1"> HTML5</label>
+                    <input type="checkbox" id="lenguaje2" name="lenguaje" value="CSS">
+                    <label for="lenguaje2"> CSS</label>
+                    <input type="checkbox" id="lenguaje3" name="lenguaje" value="JS">
+                    <label for="lenguaje3"> JS</label>
+                 
+
+            </fieldset>
+            <!-- Select -->
+            <fieldset>
+                <legend>Trabajo</legend>
+                <!-- Select con optgroup-->
+                <label for="modalidad">Seleccione modalidad trabajo:</label>
+                <select name="modalidad" id="modalidad" tabindex="2">
+                    <optgroup label="Modalidad">
+                        <option value="remoto">Remoto</option>
+                        <option value="oficina">Oficina</option>
+                    </optgroup>
+                    <optgroup label="Tiempo">
+                        <option value="part">Medio tiempo</option>
+                        <option value="full">Jornada completa</option>
+                    </optgroup>
+                </select> 
+            </fieldset> 
+            <label for="miColor">Seleccione su color favorito:</label>
+            <input type="color" id="miColor" name="miColor" value="#ff0000">
+ 
+            <input type="checkbox" name="terminos" required>
+            <label for="terminos">Acepto los términos.</label>
+           
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+            <!-- Para poder anidar una imagen o un ícono
+            <button type="submit"><img src="" alt=""></button>-->
+            <!--<a> cuando necesite navegar a otra documento u otra sección-->
+        </form>
+    </div>
+</body>
+
+</html>

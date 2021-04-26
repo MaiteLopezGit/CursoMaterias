@@ -1,0 +1,63 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.imagen_encabezado {
+  background-image: url(../img/lemon-pie.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.marca {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 20%;
+}
+/* position: relative; */ /*Otra forma para bajar el texto del encabezado*/
+
+.encabezado {
+  padding-top: 10%;
+  /*Otra forma para bajar el texto del encabezado, junto con el position relative de la div marca*/
+  /* position: absolute; 
+  bottom: 0;
+  left: 0; */
+}
+
+/* --------------------------------------------------- */
+.vinculos {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 0;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+.ingredientes {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.merengue {
+  color: rgb(255, 123, 0);
+  text-decoration: underline;
+}
+
+.instrucciones {
+  padding-left: 25px;
+}
+
+/* 
+Felipe Albornoz, Jenifer Blandón, Alejandro Ceballos, Esteban Lucena, Hernán Serna, Sofia Tohme
+ */
+
+  

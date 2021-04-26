@@ -1,0 +1,21 @@
+span {
+  font-weight: bold;
+}
+header {
+  background-color: rgb(218, 218, 218);
+}
+h1 {
+  color: color= rgb(0,255,0) ;
+  word-spacing: 40px;
+  letter-spacing: 10px;
+  background-color: rgb(187, 187, 187);
+}
+h2 {
+    color: #4D0F1D;
+    word-spacing: 40px;
+    letter-spacing: 10px;
+    background-color: rgb(187, 187, 187);
+  }
+body {
+  text-align: center;
+}
