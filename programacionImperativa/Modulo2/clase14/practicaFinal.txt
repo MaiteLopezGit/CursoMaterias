@@ -1,0 +1,81 @@
+/*EJERCICIO 1: */
+const fs = require ('fs');
+
+let departamentos = JSON.parse(fs.readFileSync (__dirname +'/departamentos.json', 'utf-8'));
+
+console.log("1) Verifico el contenido del JSON"); 
+console.log(departamentos);
+
+let inmobiliaria = {
+    departamentos: departamentos,
+    departamentosDisponibles: function (){
+        return this.departamentos.filter (departamento => departamento.disponible) },       
+
+    listarDepartamentos: function (departamentos){
+        departamentos.forEach(departamento => 
+            console.log(
+                "ID: " + departamento.id + 
+                ", Precio: $" + departamento.precioAlquiler + 
+                ", Estado: " + (departamento.disponible ? "Disponible" : "Alquilado")));
+    },
+
+    buscarPorId: function (numero){
+        return this.departamentos.find(departamento => departamento.id === numero)
+    },
+
+    buscarPorPrecio: function (precioMaximo){
+        let deptosDisponibles = this.departamentosDisponibles();
+        return deptosDisponibles.filter (departamento => departamento.precioAlquiler <= precioMaximo)
+    },
+
+    
+    ordenarPorPrecio: function () {
+        return this.departamentos.sort((departamento1, departamento2) => departamento1.precioAlquiler - departamento2.precioAlquiler)
+    },
+    precioConImpuesto: function(impuesto){
+      return this.departamentos.map(departamento => departamento.precioAlquiler += departamento.precioAlquiler *(impuesto / 100))
+    },
+
+    alquilar: function (id){
+        let depto = this.buscarPorId(id);
+        depto.disponible =false;
+    },
+
+    sumarAlquileres: function (){
+        return this.departamentos.filter(
+            dptos => dptos.disponible === false).reduce((a,dptos) => a += dptos.precioAlquiler, 0)
+    },
+}
+
+/*Ejercicio 2 */
+console.log("2) b)Departamentos disponibles: ")
+console.log (inmobiliaria.departamentosDisponibles ());
+console.log();
+
+console.log("2) c)Listar departamentos: ")
+console.log("Listar departamentos")
+inmobiliaria.listarDepartamentos(inmobiliaria.departamentosDisponibles());
+console.log();
+
+console.log("2) d)Buscar elemento por Id: ")
+console.log(inmobiliaria.buscarPorId(5))
+console.log();
+
+console.log("2) e)Buscar elemento por precio: ")
+inmobiliaria.listarDepartamentos(inmobiliaria.buscarPorPrecio(5000));
+console.log();
+
+console.log("2) f)Ordenar por precio de menor a mayor: ");
+console.log(inmobiliaria.ordenarPorPrecio());
+
+console.log("2) g)Precio con impuesto: ");
+console.log(inmobiliaria.precioConImpuesto(30));
+console.log()
+
+console.log("2) h)alquilar: ");
+inmobiliaria.alquilar(4);
+inmobiliaria.listarDepartamentos(inmobiliaria.departamentosDisponibles());
+console.log()
+
+console.log("2) i)SumarAlquileres: ");
+console.log(inmobiliaria.sumarAlquileres())

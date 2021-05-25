@@ -1,0 +1,202 @@
+[
+    {
+      "nroTicket": 10,
+      "usuario": "Regina Medina",
+      "email": "reginamedina@ginkle.com",
+      "telefono": "+1 (911) 520-2660",
+      "estaResuelto": true,
+      "minutosDeEspera": 175,
+      "prioridad": "media",
+      "comentario": "Pariatur culpa magna consectetur esse. Esse pariatur aliqua laborum aliqua pariatur occaecat non. Nulla mollit mollit commodo reprehenderit irure enim velit amet occaecat velit laborum. Occaecat voluptate elit ea id incididunt deserunt Lorem laborum consequat deserunt aute dolor nulla excepteur.\r\n"
+    },
+    {
+      "nroTicket": 12,
+      "usuario": "Gina Velez",
+      "email": "ginavelez@ginkle.com",
+      "telefono": "+1 (824) 524-2311",
+      "estaResuelto": true,
+      "minutosDeEspera": 190,
+      "prioridad": "baja",
+      "comentario": "Aute non cillum sit reprehenderit. Ex velit ullamco duis deserunt laborum reprehenderit cupidatat. Excepteur nulla qui ut in sit non incididunt tempor dolor fugiat duis incididunt exercitation. Tempor mollit excepteur mollit consequat dolore ut nulla sint ad eu pariatur quis cupidatat. Enim culpa et consectetur irure tempor ullamco. Consectetur duis incididunt minim laborum ea do. Exercitation Lorem eu laborum nulla ea excepteur sunt culpa.\r\n"
+    },
+    {
+      "nroTicket": 1,
+      "usuario": "Haley Acosta",
+      "email": "haleyacosta@ginkle.com",
+      "telefono": "+1 (973) 525-2317",
+      "estaResuelto": true,
+      "minutosDeEspera": 100,
+      "prioridad": "alta",
+      "comentario": "Do mollit ea eu veniam voluptate aute officia officia pariatur incididunt dolor incididunt. Sint labore aliqua sit aute deserunt magna ea sint occaecat et consequat. Duis mollit culpa nisi minim excepteur voluptate labore pariatur ut exercitation. Voluptate exercitation id minim sint aliquip do mollit sunt tempor. Cupidatat ad enim dolore laborum mollit enim mollit amet sunt nisi. Ex tempor esse deserunt pariatur in esse dolore culpa eiusmod labore reprehenderit sit anim. Qui dolore eu occaecat deserunt sint amet laboris voluptate deserunt magna.\r\n"
+    },
+    {
+      "nroTicket": 3,
+      "usuario": "James Valenzuela",
+      "email": "jamesvalenzuela@ginkle.com",
+      "telefono": "+1 (849) 417-3060",
+      "estaResuelto": false,
+      "minutosDeEspera": 165,
+      "prioridad": "baja",
+      "comentario": "Consectetur reprehenderit est cupidatat sint commodo Lorem amet consectetur tempor duis dolore. Sit et cupidatat aliqua voluptate ea excepteur aliqua qui velit veniam veniam ut proident in. Minim elit excepteur sit nisi elit eiusmod Lorem magna anim.\r\n"
+    },
+    {
+      "nroTicket": 14,
+      "usuario": "Wilda Steele",
+      "email": "wildasteele@ginkle.com",
+      "telefono": "+1 (817) 473-2260",
+      "estaResuelto": true,
+      "minutosDeEspera": 22,
+      "prioridad": "baja",
+      "comentario": "Incididunt labore labore sunt minim amet aute id sunt sint exercitation mollit. Ea commodo cupidatat eiusmod in nisi reprehenderit excepteur cupidatat pariatur aliquip. Sint aute cupidatat consectetur reprehenderit ipsum magna Lorem qui irure cillum. Sit dolore sunt consequat dolore elit culpa ea amet reprehenderit voluptate mollit consequat minim. Duis dolore Lorem ipsum qui nulla cupidatat.\r\n"
+    },
+    {
+      "nroTicket": 24,
+      "usuario": "Carmela Newman",
+      "email": "carmelanewman@ginkle.com",
+      "telefono": "+1 (803) 431-2864",
+      "estaResuelto": false,
+      "minutosDeEspera": 65,
+      "prioridad": "media",
+      "comentario": "Non nulla pariatur occaecat adipisicing dolor. Sint quis quis fugiat deserunt. Eu laboris pariatur dolore eu laboris pariatur est. Sit adipisicing elit et adipisicing culpa fugiat ad velit laboris minim consequat. Eu sunt cillum nostrud sit voluptate nisi nostrud quis nostrud elit incididunt esse tempor est.\r\n"
+    },
+    {
+      "nroTicket": 10,
+      "usuario": "Jo Dudley",
+      "email": "jodudley@ginkle.com",
+      "telefono": "+1 (893) 512-2275",
+      "estaResuelto": false,
+      "minutosDeEspera": 262,
+      "prioridad": "alta",
+      "comentario": "Anim dolor incididunt officia eu. Veniam laborum consequat ipsum voluptate enim minim nisi incididunt. Voluptate Lorem ex id tempor. Consectetur duis elit cillum voluptate eiusmod nulla. Ullamco sit eiusmod ullamco Lorem laboris qui mollit cillum ullamco qui.\r\n"
+    },
+    {
+      "nroTicket": 28,
+      "usuario": "Bond Booker",
+      "email": "bondbooker@ginkle.com",
+      "telefono": "+1 (869) 575-3424",
+      "estaResuelto": true,
+      "minutosDeEspera": 135,
+      "prioridad": "alta",
+      "comentario": "Occaecat voluptate eiusmod est laborum minim veniam non dolor. Culpa exercitation ad elit dolor fugiat mollit velit laboris officia reprehenderit qui tempor officia deserunt. Non tempor deserunt veniam aliqua qui occaecat laboris dolor nisi sit amet magna nulla officia. Qui laborum ad ea id esse sint sunt tempor ullamco do enim Lorem dolor. Est aliqua eiusmod laborum magna sunt eiusmod enim velit.\r\n"
+    },
+    {
+      "nroTicket": 5,
+      "usuario": "Carey Berger",
+      "email": "careyberger@ginkle.com",
+      "telefono": "+1 (990) 418-2389",
+      "estaResuelto": false,
+      "minutosDeEspera": 272,
+      "prioridad": "baja",
+      "comentario": "Est mollit proident voluptate ipsum qui enim. Commodo sit nostrud eu fugiat sit et Lorem. Aliqua eu aliquip non nulla reprehenderit ex Lorem consectetur aliqua consequat. Labore mollit eu cillum sint exercitation cillum incididunt anim officia nulla reprehenderit proident ut sunt. Voluptate sunt aliqua nisi nostrud culpa sunt aliqua eiusmod tempor consectetur anim eu consequat. Do ea pariatur ad enim esse veniam deserunt amet.\r\n"
+    },
+    {
+      "nroTicket": 13,
+      "usuario": "Lizzie Erickson",
+      "email": "lizzieerickson@ginkle.com",
+      "telefono": "+1 (907) 476-2100",
+      "estaResuelto": false,
+      "minutosDeEspera": 250,
+      "prioridad": "media",
+      "comentario": "Laboris ipsum fugiat commodo adipisicing dolor commodo duis ipsum nulla nisi aliquip mollit deserunt. Ut id tempor cupidatat excepteur ut ut aliquip adipisicing veniam incididunt. Esse quis aliquip ea deserunt quis aute nisi commodo elit ullamco ea minim. Cupidatat mollit irure aliquip veniam magna minim elit minim reprehenderit deserunt excepteur ea irure duis. Culpa elit veniam adipisicing consectetur commodo reprehenderit incididunt velit tempor ad ullamco enim. Exercitation cupidatat et nisi amet dolore duis nostrud cillum ut deserunt ullamco culpa laboris. Nulla laboris minim est irure ex amet eiusmod commodo in.\r\n"
+    },
+    {
+      "nroTicket": 23,
+      "usuario": "Autumn Kelley",
+      "email": "autumnkelley@ginkle.com",
+      "telefono": "+1 (955) 586-3583",
+      "estaResuelto": true,
+      "minutosDeEspera": 247,
+      "prioridad": "alta",
+      "comentario": "Reprehenderit dolor cupidatat cillum qui laborum consequat excepteur fugiat. Velit aute commodo deserunt dolor laborum duis duis officia consectetur occaecat sunt dolore id mollit. Do et duis nulla laboris id eu sint anim in ullamco duis. Est officia enim ipsum et aliqua laboris pariatur culpa aute est ipsum.\r\n"
+    },
+    {
+      "nroTicket": 25,
+      "usuario": "Francis Franklin",
+      "email": "francisfranklin@ginkle.com",
+      "telefono": "+1 (819) 588-3644",
+      "estaResuelto": false,
+      "minutosDeEspera": 275,
+      "prioridad": "media",
+      "comentario": "Est pariatur nisi deserunt ex quis labore mollit amet irure et ut esse. Nulla dolore minim et minim tempor proident ad reprehenderit irure. Elit ea magna nisi et eiusmod eu occaecat do voluptate laborum culpa commodo sit non. Ipsum laborum ipsum non culpa eu aliqua reprehenderit elit aliquip laborum ad. Ullamco ex commodo ipsum nisi laborum dolor et ut dolor excepteur enim dolor veniam.\r\n"
+    },
+    {
+      "nroTicket": 17,
+      "usuario": "Marilyn Talley",
+      "email": "marilyntalley@ginkle.com",
+      "telefono": "+1 (960) 467-2837",
+      "estaResuelto": true,
+      "minutosDeEspera": 67,
+      "prioridad": "media",
+      "comentario": "Elit eiusmod anim cupidatat excepteur sint labore. Nulla cupidatat esse deserunt reprehenderit minim adipisicing deserunt incididunt. Reprehenderit eu est adipisicing pariatur dolor fugiat sint Lorem non sunt laborum laborum dolore minim. Est dolor commodo incididunt pariatur magna Lorem magna amet nisi deserunt et.\r\n"
+    },
+    {
+      "nroTicket": 28,
+      "usuario": "Knowles Kirk",
+      "email": "knowleskirk@ginkle.com",
+      "telefono": "+1 (940) 426-2816",
+      "estaResuelto": false,
+      "minutosDeEspera": 42,
+      "prioridad": "media",
+      "comentario": "Exercitation nulla eiusmod sunt reprehenderit tempor laboris consequat. Magna irure pariatur amet sit non et sint ex dolore elit nulla sit. Quis irure occaecat anim voluptate ipsum. Commodo aliquip sunt elit Lorem fugiat laborum. Pariatur sint irure elit dolore laboris ut elit id deserunt incididunt sit qui aliquip. Nisi occaecat cupidatat cupidatat fugiat amet tempor labore voluptate.\r\n"
+    },
+    {
+      "nroTicket": 23,
+      "usuario": "Amanda Dunlap",
+      "email": "amandadunlap@ginkle.com",
+      "telefono": "+1 (974) 425-3712",
+      "estaResuelto": true,
+      "minutosDeEspera": 229,
+      "prioridad": "baja",
+      "comentario": "Ipsum eu aliquip excepteur pariatur ipsum. Do magna proident irure qui dolor non cupidatat pariatur ex. Ipsum id labore officia commodo dolor excepteur exercitation aliqua non nostrud ex nulla anim laborum. Non ut nostrud est aliquip reprehenderit proident id velit eiusmod. Non velit velit laboris cillum et sit sunt cillum veniam eu ea reprehenderit. Laborum ullamco aliquip anim aliquip consequat irure fugiat voluptate quis aliqua voluptate.\r\n"
+    },
+    {
+      "nroTicket": 8,
+      "usuario": "Hester Whitfield",
+      "email": "hesterwhitfield@ginkle.com",
+      "telefono": "+1 (996) 536-2421",
+      "estaResuelto": false,
+      "minutosDeEspera": 268,
+      "prioridad": "baja",
+      "comentario": "Est amet occaecat enim pariatur. In mollit nulla ad nulla fugiat aliqua duis veniam nulla ut ut magna ut sunt. Culpa reprehenderit anim occaecat Lorem enim cillum occaecat commodo reprehenderit eu ipsum. Proident eiusmod aute officia qui voluptate.\r\n"
+    },
+    {
+      "nroTicket": 13,
+      "usuario": "Cristina Hodges",
+      "email": "cristinahodges@ginkle.com",
+      "telefono": "+1 (835) 460-3197",
+      "estaResuelto": false,
+      "minutosDeEspera": 130,
+      "prioridad": "baja",
+      "comentario": "Cupidatat tempor cillum aliquip eiusmod proident Lorem occaecat sit dolore. Aliqua ullamco officia laborum est voluptate proident culpa excepteur amet minim. Tempor sit voluptate ullamco eiusmod est excepteur labore Lorem esse deserunt aliquip. Deserunt Lorem aliquip laborum occaecat ullamco non elit eiusmod. Lorem laborum dolore est ad tempor enim reprehenderit ut et labore ex Lorem. Dolor sit et adipisicing elit.\r\n"
+    },
+    {
+      "nroTicket": 26,
+      "usuario": "Rebecca Cunningham",
+      "email": "rebeccacunningham@ginkle.com",
+      "telefono": "+1 (855) 590-2485",
+      "estaResuelto": false,
+      "minutosDeEspera": 259,
+      "prioridad": "baja",
+      "comentario": "Magna est laborum commodo esse. Magna adipisicing sunt adipisicing mollit aliquip ullamco sint cillum. Aliquip eiusmod commodo nisi mollit cupidatat consectetur nostrud ea incididunt do nisi. Incididunt culpa est dolore reprehenderit dolore proident elit ex quis nostrud nulla. Eu dolore nostrud aliquip nisi. Veniam Lorem tempor qui quis enim ipsum.\r\n"
+    },
+    {
+      "nroTicket": 18,
+      "usuario": "Rosa Ayala",
+      "email": "rosaayala@ginkle.com",
+      "telefono": "+1 (862) 555-2616",
+      "estaResuelto": false,
+      "minutosDeEspera": 248,
+      "prioridad": "alta",
+      "comentario": "Sunt quis voluptate Lorem occaecat laboris aliqua nulla eu anim tempor. Exercitation do reprehenderit reprehenderit ex. Ex ea enim laboris sint cupidatat officia velit in culpa nisi. Elit minim fugiat ullamco enim veniam qui consectetur labore incididunt minim. Aute aute veniam tempor aute ut commodo irure laborum commodo Lorem esse. Anim eiusmod in sit ad fugiat minim nisi aliquip enim aliquip.\r\n"
+    },
+    {
+      "nroTicket": 12,
+      "usuario": "Kelley Gentry",
+      "email": "kelleygentry@ginkle.com",
+      "telefono": "+1 (876) 445-3894",
+      "estaResuelto": true,
+      "minutosDeEspera": 191,
+      "prioridad": "alta",
+      "comentario": "Proident ut aliqua dolor nostrud. Mollit dolor labore anim incididunt amet aute nostrud. Exercitation ea commodo enim et do enim. Laborum cillum et nisi magna sit. Nulla culpa dolore aliquip ipsum minim est exercitation velit.\r\n"
+    }
+  ]

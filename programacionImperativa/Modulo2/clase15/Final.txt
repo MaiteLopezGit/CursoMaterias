@@ -1,0 +1,162 @@
+/*EJERCICIO 1: LEER EL ARCHIVO */
+let fs = require("fs");
+
+let autosJSON = fs.readFileSync(__dirname + "/AUTOS.json", "UTF-8");
+
+let autos = JSON.parse(autosJSON);
+
+/*EJERCICIO 2: crear un objeto literal que represente la carrera*/
+let carrera = {
+  //A) Agregar una propiedad llamada autos que contenga los autos obtenidos en el punto anterior.
+  autos: autos,
+
+  //B)Agregar una propiedad llamada autosPorTanda que contenga el valor 5. Este valor representará la cantidad máxima de autos por tanda.
+  autosPorTanda: 5,
+
+  //C)Agregar un método autosHabilitados, que permita consultar los autos habilitados, es decir, que devuelva una lista de los autos que no estén sancionados.
+  autosHabilitados: function () {
+    return this.autos.filter((auto) => auto.sancionado);
+  },
+
+  //D)Agregar un método listarAutos que reciba como parámetro un array de autos y los imprima por consola.
+  /*Este método deberá imprimir por cada elemento:
+    La placa o patente.
+    El piloto
+    El peso del auto
+    “sancionado” → En caso de ser true la propiedad sancionado 
+    “puede correr” → Caso contrario
+    */
+  listarAutos: function (arrayAutos) {
+    arrayAutos.forEach((auto) => {
+      let sancionado = auto.sancionado ? "Sancionado" : "Puede correr";
+      console.log(
+        "Patente: " +
+          auto.patente +
+          " Piloto: " +
+          auto.piloto +
+          " Peso: " +
+          auto.peso +
+          " y esta: " +
+          sancionado
+      );
+    });
+  },
+
+  //E)Agregar un método buscarPorPatente que permita buscar el auto en función de su patente.
+  buscarPorPatente(patente) {
+    let autoEncontrado = this.autos.filter((auto) => auto.patente === patente);
+    return autoEncontrado;
+  },
+
+  //F)Agregar un método buscarPorCilindrada que permite filtrar los autos habilitados, siempre y cuando su propiedad cilindrada sea menor o igual a la cilindrada enviada como argumento.
+  buscarPorCilindrada(cilindrada) {
+    let autosHabilitados = this.autosHabilitados();
+    let autosEncontrados = autosHabilitados.filter(
+      (auto) => auto.cilindrada === cilindrada
+    );
+    return autosEncontrados;
+  },
+
+  //G)Agregar un método que permita ordenar por velocidad de menor a mayor según el puntaje de cada auto  y devolver un array ordenado.
+  ordenarPorVelocidad: function () {
+    return this.autos.sort ((a,b) => a.velocidad -  b.velocidad );
+  },
+
+  //H)Agregar un método generarTanda que permita retornar un array de autos, que cumpla con las siguientes condiciones:
+  /*únicamente autos habilitados
+    cilindradas del auto menor o igual a un valor enviado como argumento.
+    peso  del auto menor o igual a un valor enviado como argumento
+    */
+  generarTanda: function (cilindrada,peso){
+      let autosHabilitados = this.autosHabilitados();
+      let autosPorCilindrada = autosHabilitados.filter((auto) => auto.cilindrada <= cilindrada);
+      let autosPeso = autosPorCilindrada.filter((auto) => auto.peso <= peso);
+      if(autosPeso.length > this.autosPorTanda){
+          let cantBorrar = autosPeso.length-this.autosPorTanda;
+          autosPeso.splice(0,cantBorrar);
+      }
+      return autosPeso;
+  },
+
+  //I)Agregar un método que permita calcularPodio, el mismo deberá calcular al ganador y los siguientes dos puestos en función de su puntaje.
+  /*El podio debe surgir a partir de la tanda generada.
+    Los primeros tres autos con mayor puntaje conformarán el podio
+   */
+  /*FUNCION PARA MODULARIZAR */
+    ordenarPorPuntaje: function (arrayAutos) {
+        return arrayAutos.sort ((a,b) => b.puntaje - a.puntaje );
+      },
+    
+  calcularPodio: function (cilindrada,peso){
+      let podio = 3;
+      let autosParaPodio = this.generarTanda (cilindrada,peso);
+      let autosOrdenados = this.ordenarPorPuntaje(autosParaPodio);
+      autosOrdenados.splice(podio,autosOrdenados.length-podio);
+      return autosOrdenados;
+  }
+};
+
+/*EJERCICIO  1 */
+/*Verifico que se haya descargado y parseado correctamente el JSON */
+console.log("EJERCICIO 1: Verifico que se leea el JSON");
+console.log(autos);
+console.log(); /*PARA QUE QUEDE UN ESPACIO SEPARANDO EJERCICIOS */
+
+/*EJERCICIO 2: */
+console.log("EJERCICIO 2 ");
+console.log();
+
+//A):
+console.log("A)");
+console.log();
+console.log(carrera.autos);
+console.log();
+
+//B):
+console.log("B)");
+console.log();
+console.log(carrera.autosPorTanda);
+console.log();
+
+//C):
+console.log("C)");
+console.log();
+console.log(carrera.autosHabilitados());
+console.log();
+
+
+//D):
+console.log("D)");
+console.log();
+carrera.listarAutos(carrera.autos);
+console.log();
+
+//E)
+console.log("E)");
+console.log();
+console.log(carrera.buscarPorPatente("JOK851"));
+console.log();
+
+//F)
+console.log("F)");
+console.log();
+console.log(carrera.buscarPorCilindrada(1500));
+console.log();
+
+//G)
+console.log("G)");
+console.log();
+console.log(carrera.ordenarPorVelocidad());
+console.log();
+
+//H)/*Lo probe cambiandole al JSON a varios False por true, proque son solo tres los true */
+console.log("H)");
+console.log();
+console.log(carrera.generarTanda(1000000, 100000000000000));
+console.log();
+
+//I)
+console.log("I)");
+console.log();
+console.log(carrera.calcularPodio(1000000000,10000000000000));
+console.log();
