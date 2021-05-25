@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root{
+    --logoPizza: #39B24A;
+    --logoFont:#FC200C;
+    --fondoMain:  #E5E5E5; /*Fondo del main*/
+    --fondoSection: #FFFFFF; /*fondo secction 2*/
+    --FooterHeader: #222222; /*Fondo de footer y header*/
+    --listaNavFooter: #F3F3F3;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*HEADER*/
+header{
+    background-color: var(--FooterHeader);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    padding: 2%;
+    position: sticky;
+}
+header,footer{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header div, .logoFooter{
+    display: flex;
+    align-items: center;
+}
+
+h1,h2{
+    margin-left: 2%;
+    color: white;
+    font-family: "Roboto";
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end; 
+}
+
+nav ul li{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+li{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav{
+    color: var(--listaNavFooter)
+}
+
+.pizza{
+    color: var(--logoPizza);
+}
+
+.font{
+    color:var(--logoFont);
+}
+
+/*MAIN*/
+main{
+    background-color: var(--fondoMain);
+    display: flex;
+    padding: 35px;
+}
+
+.hero{
+    background-image: url(../img/delivery.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+    margin-right: 1%;
+}
+
+.listaPizzas{
+    background-color: var(--fondoSection);
+    width: 491px;
+    height: 350px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: var(--FooterHeader);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.listaFooter ul{
+    color: var(--listaNavFooter);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 35%;
+    list-style-type: none;
+}

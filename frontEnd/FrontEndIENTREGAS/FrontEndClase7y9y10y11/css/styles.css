@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+
+section i {
+  color:#00669F;
+  font-size: 70px;
+  position:fixed;
+  right: 5%;
+  bottom: 25%;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+
+.Logo {
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer{
+  background: #00669F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+}
+
+
+
+
+.card {
+  width: 300px;
+  text-align: center;
+  margin: 40px 40px 30px 30px;
+  display: inline-block;
+  
+}
+
+
+
+section{
+  justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+}
+
+.batman{
+  background-image: url("../img/bg-batman.jpg");
+}
+
+.superman{
+  background-image: url("../img/bg-superman.jpg");
+}
+
+.mujerMaravilla{
+  background-image: url("../img/bg-wonderw.jpg");
+}
+
+.harlyQuinn{
+  background-image: url("../img/bg-hquinn.png");
+}
+
+.card-top{
+  
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+  height: 194px;
+  position: relative;
+  text-align: left;
+}
+.card-top .cora {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.card-info {
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+.card-info img {
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -90px;
+  left: 90px;
+}
+
+.card-info h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.card-info p {
+  text-align: left;
+  padding: 16px;
+}
+
+.card-info a {
+  background-color: #00669f;
+  color: #f3f3f3;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+
+}
+nav{
+
+height: 40px;
+top: 104px;
+background: #001D2D;
+}
+
+.discount{
+height: 23px;
+left:  0px;
+top: 0px;
+background: #1CD1B0;
+padding-left: 2%;
+}
+
+ul{
+  padding-top: 10px;
+  float: right;
+  padding-right: 3%;
+}
+
+li{
+  display: inline-block;  
+  padding-left: 3px;
+  padding-right: 3px;
+}
+

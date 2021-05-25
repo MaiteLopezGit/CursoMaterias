@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Añadir</title>
+    <link
+      rel="stylesheet"
+      href="css/estiloNuevoSuper.css"
+    />
+  </head>
+  <body>
+    <!-- DESCUENTO-->
+    <div>
+      <p class="oferta_descuento">20% de descuento en todos los productos!</p>
+    </div>
+    
+    <!--HEADER-->
+    <header>
+      <div class="Logo">
+        <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+        <h1>Nombre tienda</h1>
+  
+      </div>
+      
+      <!--MENU-->
+      <div>
+        <nav>
+          <a href="contacto.html">Contacto</a>
+          <a href="registrarme.html">Registrarme</a>
+          <a href="ingresar.html">Ingresar</a>
+        </nav>
+      </div>  
+    </header>
+    <main>
+      <section>
+      <div>
+        <h3 class="titulo_formulario">Añadí tu super!</h3>
+        <p class="descripcion_formulario">
+          Agregá tu personaje favorito completando las opciones
+        </p>
+      </div>
+    </section>
+    <section>
+      <form action="#">
+        <div class="contenedor">
+          <div class="columnaIzquierda">
+            <label for="nombre">*Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Superman"
+              required
+            />
+            <label for="fechaCreacion">Fecha</label>
+            <input
+              type="date"
+              id="fechaCreacion"
+              name="creacion"
+              min="2018-01-01"
+              max="2020-12-31"
+            />
+            <textarea
+              name="descripcion"
+              cols="30"
+              rows="10"
+              placeholder="Descripcion"
+            >
+            </textarea>
+          </div>
+          <div class="columnaDerecha">
+            <label for="especie">*Especie</label>
+            <input type="text" id="especie" name="especie" required />
+            <label for="agregarFoto">Agregar Foto</label>
+            <input type="file" id="agregarFoto" name="agregarFoto" />
+            <label class="labelDisplayBlock" for="poderes">Poderes</label>
+            <ul type="none">
+              <li>
+                <input
+                  type="checkbox"
+                  id="poderes"
+                  name="poderes"
+                  value="Volar"
+                />
+                <label class="labelLista" for="poderes">Volar</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="poderes"
+                  name="poderes"
+                  value="Superinteligencia"
+                />
+
+                <label class="labelLista" for="poderes"
+                  >Superinteligencia</label
+                >
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="poderes"
+                  name="poderes"
+                  value="Vista de rayo láser"
+                />
+                <label class="labelLista" for="poderes"
+                  >Vista de rayo láser</label
+                >
+              </li>
+              <input
+                type="checkbox"
+                id="poderes"
+                name="poderes"
+                value="Billetera gorda"
+              />
+              <label class="labelLista" for="poderes">Billetera gorda</label>
+            </ul>
+            <label class="labelDisplayBlock" for="tipoPersonaje"
+              >Tipo de personaje</label
+            >
+            <ul type="none">
+              <li>
+                <input
+                  type="radio"
+                  id="tipoPersonaje"
+                  name="tipoPersonaje"
+                  value="Héroe/Heroína"
+                />
+                <label class="labelLista" for="tipoPersonaje"
+                  >Héroe/Heroína</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="tipoPersonaje"
+                  name="tipoPersonaje"
+                  value="Villano/Villana"
+                />
+                <label class="labelLista" for="tipoPersonaje"
+                  >Villano/Villana</label
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="botonAñadir">
+          <input type="submit" value="Añadir" />
+        </div>
+      </form>
+    </section>
+    </main>
+    <footer><p>Todos los derechos reservados a FRONT END 1</p></footer>
+  </body>
+</html>

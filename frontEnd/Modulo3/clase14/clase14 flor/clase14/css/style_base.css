@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+:root {
+  --gray: #222222;
+  --red: #fc200c;
+  --green: #39b24a;
+  --lightWhite: #f3f3f3;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--lightWhite);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: var(--gray);
+  color: var(--white);
+  padding: 0.5rem 1.25rem;
+  display: flex;   /*dar flexibilidad a las cajas*/
+  justify-content: space-between;/*se distribuyen de manera uniforme.el 1º item sera enviado al inicio,2º item al final.El espacio libre se repartira para separar los items*/
+  align-items: center; /*los items se alinean al centro del eje transversal*/
+  /*Añadimos flex*/
+}
+
+header nav ul{
+  display:flex;    
+  gap: 20px; /*espacio entre los elementos(nav/ul)*/
+  /*Añadimos flex*/
+}
+
+header .header__logo {
+  display:flex;
+  align-items: center; /*los items se alinean al centro del eje transversal*/
+  gap: 10px;           /*espacio entre los elementos*/
+  /*Añadimos flex*/
+}
+
+header .header__logo span,
+footer .footer__logo span {
+  color: var(--green);  /*color verde al titulo del logo pizza*/
+}
+header .header__logo span:nth-child(2),
+footer .footer__logo span:nth-child(2) {
+  color: var(--red);   /*color rojo al titulo del logo front*/
+}
+main {
+    padding: 35px 0px;
+    /* Alto del main: alto viewport - alto Header - alto Footer 
+       Me aseguro que el main ocupa todo el alto disponible */
+       min-height: calc(100vh - 100px - 150px);  
+       display: flex;
+       justify-content: center;/*los items se alinean en el centro del main axis*/
+       align-items: center; /*los items se alinean al centro del eje transversal*/
+}
+
+main .container {
+  display:flex;
+  justify-content: center;/*los items se alinean en el centro del main axis*/
+  gap: 30px; /*espacio entre el contenido del elemento y su borde*/
+  /*Añadimos flex*/
+}
+
+main section .card {
+  border-radius: 5px; /*permite redondear los bordes de las cajas*/
+  height: 21.875rem; /* 350px/16px (16px=1rem) */
+  width: 30.625rem;  /* 490px/16px (16px=1rem) */
+  flex-grow: 1; /*si ambos items tienen la propiedad flex-grow con valor 1, a medida q elcontenedor se agrande, iran abarcando el espaciodisponible en partes iguales*/
+}
+
+main section .delivery {
+  background: url("../img/delivery.jpg");
+  color: var(--red);
+  font-size: 1.5rem;  
+  font-weight: bold; /*grosor de las letras del texto, texto en negrita (valor bold )*/
+  padding: 20px;  /*espacio entre el contenido del elemento y su borde*/
+  background-size: cover;/*Si la imagen no tiene una proporción propia, entonces se representa al tamaño de la zona de posicionamiento de fondo.*/
+}
+main section .delivery span {
+  color: var(--lightWhite);
+}
+main section .podio {
+  background: #fff;/*define el color de fondo de un elemento, puede ser el valor de un color o la palabra " transparent e"*/
+  font-weight: bold;/*grosor de las letras del texto, texto en negrita (valor bold )*/
+  /*Añadimos flex*/
+}
+main section .podio h3 {
+  color: var(--red);
+  font-size: 24px;
+  text-align: center;
+  padding: 26px;
+  width: 100%;
+}
+.podio .top5 .podio__pizzas h4 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  
+}
+
+.top5 {
+  display:flex;
+  justify-content: space-around;/*los items se distribuyen de manera uniforme*/
+  align-items: center;/*los items se alinean al centro del eje transversal*/
+  /*Añadimos flex*/
+}
+
+
+.top5 .podio__pizzas ol li {
+  padding: 10px 0px;
+  
+}
+
+.top5 .podio__img {
+  padding-bottom: 60px;
+  display:flex;
+  /*Añadimos flex*/
+}
+
+footer {
+  background: #222;/*color de fondo, en este caso del fonfo del footer*/
+  padding: 19px 20px; /*espacio entre el contenido del elemento y su borde */
+  display:flex;               /*dar flexibilidad a las cajas*/
+  align-content: flex-end;    /*alinea todo hacia abajo*/
+  flex-direction: row-reverse;/*elementos hijos, tendrán orientación de der a izq.3.2.1*/
+  justify-content: space-between;/*se distribuyen de manera uniforme.el 1º item sera enviado al inicio,2º item al final.El espacio libre se repartira para separar los items*/
+  /*Añadimos flex*/
+}
+
+footer .footer__logo {
+  color: var(--lightWhite);
+  font-size: 14px;     /*tamaño de la letra*/
+  display:flex;        /*dar flexibilidad a las cajas*/
+  align-items: center; /*los items se alinean al centro del eje transversal*/
+  gap: 10px;           /*espacio esntre los elementos
+  /*Añadimos flex*/
+}
+
+footer ul {
+  color: var(--lightWhite);
+  display:flex;                  /*dar flexibilidad a las cajas*/
+  flex-direction: column-reverse;/*direccion de los elementos pero al reves: 3.2.1*/
+  gap: 10px;                     /*espacio esntre los elementos
+  /*Añadimos flex*/
+}
+footer ul li:last-child {
+  order: -1;
+}
+footer ul li:first-child {
+  order: -2;
+}
+ 
+
+
+@media screen and (max-width:  768px) {
+  .kangrebur {
+    display: flex;
+    font-size: 40px;
+  }
+  header nav {
+   display: none;
+ }
+ main .container {
+   flex-direction: column;
+   align-items: center;
+ }
+}
+ 
+   /* - Ocultar los botone de nav (del header)
+      - Añadir el ícono hamburguesa */

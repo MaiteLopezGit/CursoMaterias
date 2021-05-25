@@ -1,0 +1,52 @@
+/* Header */
+header nav {
+  background-color: chartreuse;
+  display: flex;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+header nav ul {
+  width: 500px;
+  display: flex;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: space-around;
+  background-color: chocolate;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: 0;
+  padding: 5px;
+}
+
+header nav ul li a:hover {
+  color: blue;
+}
+
+/* Main*/
+main .h2-font, main .exito, main .sugerencia, main .peligro {
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+main .exito {
+  color: green;
+}
+
+main .sugerencia {
+  color: yellow;
+}
+
+main .peligro {
+  color: black;
+}
+/*# sourceMappingURL=estilos.css.map */

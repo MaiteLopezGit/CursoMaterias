@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+dd {
+  padding-left: 30px;
+}
+
+dt {
+  padding: 10px;
+  padding-left: 0;
+}
+
+
+footer {
+  background-color: rgb(207, 209, 214);
+  color: rgb(99, 101, 105);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h1{
+  padding-bottom: 2%;
+  font-size: 50px;
+}
+
+h1,p {
+  color: white;
+  
+}
+
+i {
+  padding-right: 10px;
+}
+
+
+main {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+nav ul {
+  padding-left: 0%;
+}
+
+
+ol {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.encabezado {
+
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.padre {
+  margin-top: 60px;
+  margin-right: 5%;
+  padding-top: 30%;
+  padding-bottom: 100px;
+  position: relative;
+  background-image: url(../img/lemon-pie.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/lemon-pie.png);
+}
+
+ul{
+    margin-top: 20px;
+}
+
+section {
+  color: rgb(47, 47, 51);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.lista {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.merengue{
+  color:rgb(253, 126, 7);
+  text-decoration: underline;
+}

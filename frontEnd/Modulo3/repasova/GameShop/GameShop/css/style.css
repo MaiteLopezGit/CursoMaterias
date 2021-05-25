@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --primario: #222222;
+  --colorSecundario: #d01418;
+  --colorTercero: #f3f3f3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: var(--primario);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 35px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div h1 {
+  margin-left: 20px;
+  color: var(--colorTercero);
+}
+
+header div h1 span {
+  color: var(--colorSecundario);
+}
+
+.kangrebur {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  padding: 0px 4px;
+  color: var(--colorTercero);
+  text-decoration: none;
+}
+
+.carrito {
+  color: var(--colorSecundario);
+  font-size: 24px;
+}
+
+.hero {
+  height: 512px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero div h3 {
+  color: var(--colorTercero);
+  font-size: 40px;
+}
+
+.hero div h3 span {
+  color: var(--colorSecundario);
+}
+
+.hero div a {
+  background-color: var(--colorSecundario);
+  border-radius: 5px;
+  color: var(--colorTercero);
+  text-decoration: none;
+  padding: 16px 61px;
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .kangrebur {
+    display: block;
+    color: var(--colorTercero);
+    font-size: 27px;
+  }
+}

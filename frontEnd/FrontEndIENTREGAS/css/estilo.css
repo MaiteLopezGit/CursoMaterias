@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(201, 200, 200);
+    
+}
+
+h1{
+
+    text-align: center;
+    background-color: palevioletred;
+    font-family: 'Original Surfer';
+    font-size: 60px;
+}
+
+.Mensaje{
+   display: block;
+   font-family: 'Original Surfer';
+   margin-top: 15px;
+   margin-bottom: 15px;
+  padding-left: 150px;
+    font-size: 20px;
+    
+
+}
+
+textarea{
+    margin-left: 25px;
+    border-radius: 25%; 
+    text-align: center;
+   text-decoration: underline;
+    font-family: 'Original Surfer';
+    font-size: 20px;
+}
+
+
+.datosPersonales{
+    font-size: 25px;
+    margin-left: 3%;
+    padding-top: 2%;
+    padding-right: 0.3%;
+    
+}
+
+a{
+    
+    color:  black;
+    font-family: 'Original Surfer';
+    font-size: 20px;  
+}
+
+nav{
+    background-color: rgb(184, 49, 94);
+    padding: 5px;
+}
+
+footer{
+    font-family: 'Original Surfer';
+    text-align: center;
+    background-color: palevioletred;
+}
+
+span{
+    font-family: 'Original Surfer';
+}
+
+h2{
+    
+    font-family: 'Original Surfer';
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 40px;
+}
+
+.Tareas{
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+dd{
+    margin-left: 15%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+dt{
+    margin-left: 5%;
+}
+
+ul{
+    padding-left: 5%;
+}
+
+header{
+    position: sticky;
+    top:0%;
+    z-index: 999;
+}
+
+footer{
+    margin-top: 50%;
+}

@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(206, 202, 206);
+    text-align: center;
+}
+
+h1{
+    color: rgb(38, 38, 112);
+    background-color: rgb(169, 175, 172);
+    letter-spacing: 14px;
+}
+
+h2{
+    background-color: rgb(169, 175, 172);
+    color: maroon;
+    letter-spacing: 25px;
+
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+}
+
+section { 
+    margin: 20px 25%;
+    text-align: left; 
+  
+}
+
+
+ 
+section h2{
+    background-color: #bfbfbf;
+    color: #630e0e;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgb(37, 69, 82);
+    font-size: 20px;
+    color: white;
+}
+
+footer img{
+    width: 18px;
+}
+

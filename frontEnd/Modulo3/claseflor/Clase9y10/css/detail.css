@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.comentario {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #1cd1b0;
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  width: 1445px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 1445px;
+
+  z-index: 999;
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 0%;
+}
+
+h1 {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  
+}
+
+/*MAIN*/
+
+.fondo {
+  background-image: url("../img/bg-hquinn.png");
+  background-size: cover;
+  width: 1442px;
+  height: 787px;
+  padding-top: 270px;
+}
+
+.card {
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  
+  margin: 0px 447px 116px 449px;
+  border-radius: 45px 45px 45px 45px;
+}
+
+.home {
+  display: flex;
+  align-items: flex-start;
+}
+
+h2 {
+  padding: 71px 170px 0px 170px;
+  text-decoration: underline;
+  color: #2c0187;
+}
+
+.descripcion {
+  margin: 10px 23px 15px 23px;
+}
+
+.img-top{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.img-top img{
+    position: absolute;
+    border-radius: 100%;
+    padding: 10% auto;
+    margin-top: -350px;
+    width: 159px;
+height: 159px;
+left: 646px;
+top: 243px;
+
+}
+
+.armas img {
+    margin-left: 33.32px;
+}
+a {
+    
+  border-radius: 0px 0px 45px 45px;
+  text-decoration: none;
+  background-color: #2c0187;
+  color: white;
+  padding: 31px 224px 33px 224px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #00669f;
+  text-align: center;
+  width: 1445px;
+}
+
+footer p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}

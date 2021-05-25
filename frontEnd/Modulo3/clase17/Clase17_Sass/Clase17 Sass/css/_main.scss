@@ -1,0 +1,24 @@
+/* Main*/
+main {
+    .h2-font {
+        font-size: 2em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .exito {
+        color: $color-exito;
+        @extend .h2-font;
+
+    }
+
+    .sugerencia {
+        color: $color-sugerencia;
+        @extend .h2-font;
+    }
+
+    .peligro {
+        color: $color-peligro;
+        @extend .h2-font;
+    }
+}

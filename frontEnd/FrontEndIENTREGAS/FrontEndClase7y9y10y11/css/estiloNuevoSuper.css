@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 1%;
+  font-family: roboto;
+  font-weight: lighter;
+}
+
+.botonAñadir {
+    text-align: center;
+    padding-right: 10%;
+    border: none;
+}
+.contenedor {
+  position: relative;
+  padding: 20%;
+  margin-top: 2%;
+}
+
+.columnaDerecha {
+  position: absolute;
+  padding-right: 10%;
+  margin-right: 0%;
+  top: 0%;
+  right: 8%;
+}
+
+.columnaIzquierda {
+  position: absolute;
+  padding-left: 10%;
+  margin-left: 0%;
+  top: 0%;
+  left: 0%;
+}
+
+.descripcion_formulario {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 14px;
+}
+
+form input {
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+form input[type="text"] {
+  width: 343px;
+  height: 63px;
+  left: 366px;
+  top: 329px;
+}
+
+form input[type="date"] {
+  width: 343px;
+  height: 63px;
+  left: 366px;
+  top: 329px;
+}
+
+form input,
+textarea {
+  margin-left: 15%;
+  border-radius:23.011px; 
+}
+
+form input[type="text"],
+form textarea,
+form input[type="date"],
+form input[type="file"] {
+  display: block;
+  border: none;
+  border: #1cd1b0 solid 1px;
+  border: none;
+}
+
+form input[type="submit"] {
+  color: black;
+  background-color: #1cd1b0;
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+form textarea {
+  padding: 13%;
+}
+
+footer {
+  background-color: #00669f;
+  color: white;
+  font-family: roboto;
+  font-weight: lighter;
+  padding: 0.2%;
+  text-align: center;
+}
+
+
+
+header{
+    z-index: 999;
+    top: 0%;
+    position: sticky;
+}
+form label {
+  padding-left: 15%;
+  font-family: inter;
+  color: white;
+}
+
+.labelLista {
+  padding-left: 0%;
+}
+
+.labelDisplayBlock {
+  display: block;
+}
+
+.Logo {
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  border-radius: 20px;
+  background-color: #00669f;
+  margin: 3% 10% 3% 10%;
+}
+
+nav {
+  background-color: #001d2d;
+  display: none block;
+  margin-top: 0%;
+  padding: 1%;
+  text-align: right;
+}
+
+.oferta_descuento {
+  background-color: #1cd1b0;
+  font-family: roboto;
+  margin-bottom: 0%;
+  padding: 0%;
+  padding-left: 3%;
+}
+
+.titulo_formulario {
+  color: white;
+  font-family: inter;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 72px;
+}
